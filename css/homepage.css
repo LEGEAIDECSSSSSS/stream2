@@ -235,6 +235,12 @@ body a {
   }
 }
 
+@media screen and (max-width:700px) {
+  .hide{
+    display: none;
+  }
+}
+
 .fun-img{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
