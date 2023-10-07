@@ -219,8 +219,20 @@ body a {
   margin-right: 20px;
 }
 
+@media screen and (max-width:700px){
+  .now-streaming img{
+    margin-right: 10px;
+  }
+}
+
 .home-next{
   padding-top: 165px;
+}
+
+@media screen and (max-width:700px){
+  .home-next{
+    padding-top: 90px;
+  }
 }
 
 .fun-img{
