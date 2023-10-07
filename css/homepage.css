@@ -208,12 +208,15 @@ body a {
   display: flex;
 }
 
-.now-streaming img{
-  margin-right: 20px;
+@media screen and(max-width:700px){
+  .now-streaming{
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
-.now-streaming a{
-  text-align: center;
+.now-streaming img{
+  margin-right: 20px;
 }
 
 .home-next{
@@ -420,6 +423,16 @@ input[type=password]:hover {
     border-radius: 20px;
     margin-left: auto;
 }
+
+@media screen and (max-width:760px) {
+  .hm4{
+      width: 250px;
+      height: 317px;
+      margin-top: 10px;
+      border-radius: 10px;
+      margin-left: auto;
+     }
+  }
 
 .slide-1{
     width: 250px;
