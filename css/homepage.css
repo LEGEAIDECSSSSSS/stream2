@@ -206,12 +206,24 @@ body a {
 
 .now-streaming{
   display: flex;
+  width: auto;
+  max-width: 100%;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+
+.now-streaming::-webkit-scrollbar{
+  display: none;
 }
 
 @media screen and(max-width:700px){
   .now-streaming{
     display: flex;
     flex-wrap: wrap;
+    width: auto;
+    max-width: 100%;
+    overflow-x: scroll;
+    white-space: nowrap;
   }
 }
 
