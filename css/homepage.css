@@ -67,7 +67,7 @@ body a {
   @media screen and (max-width:700px){
     .group li {
       margin-right: 10px;
-      margin-left: 5px;
+      margin-left: 0px;
       transition: all;
       box-sizing: border-box;
     }
