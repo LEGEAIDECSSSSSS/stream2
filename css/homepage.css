@@ -53,7 +53,7 @@ body a {
   .group {
     list-style: none;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-items: center;
   }
   
@@ -62,7 +62,15 @@ body a {
     margin-left: 5px;
     transition: all;
     box-sizing: border-box;
-   
+  }
+
+  @media screen and (max-width:700px){
+    .group li {
+      margin-right: 10px;
+      margin-left: 5px;
+      transition: all;
+      box-sizing: border-box;
+    }
   }
 
   .nav-drop0 {
@@ -124,6 +132,17 @@ body a {
     width: 50%;
   }
 
+  @media screen and (max-width:700px){
+    .group li a{
+      border: 1px solid white;
+      border-radius: 40px;
+      padding: 5px 10px;
+      background-color: white;
+      box-sizing: border-box;
+      
+    }
+  }
+
   .group li img {
     width: 60px;
     height: 50px;
@@ -133,13 +152,25 @@ body a {
     top: 85px;
   }
 
+  @media screen and (max-width:700px){
+    .group li img {
+      width: 45px;
+      height: 30px;
+      border-radius: 10px;
+      position: absolute;
+      left: 80px;
+      top: 98px;
+      margin-left: -25px;
+    }
+  }
+
   @media screen and (max-width:700px ) {
     .group li {
         list-style: none;
         
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         
-        width: 33.33%;
+       
         
       }
   }
@@ -169,6 +200,16 @@ body a {
     border-radius: 15px 0px;
     padding: 10px;
     background-color: white;
+  }
+
+  @media screen and (max-width:700px){
+    .out a {
+      margin-left: 10px;
+      border: 1px solid white;
+      border-radius: 15px 0px;
+      padding: 5px;
+      background-color: white;
+    }
   }
 
   .out a:hover{
@@ -276,6 +317,12 @@ body a {
 .fun-img img:hover{
   opacity: 1;
   transform: scale(1) rotate(5deg);
+}
+
+@media screen and (max-width:700px){
+  .fun-img img:hover{
+    transform: scale(1) rotate(0deg);
+  }
 }
 
 form {
