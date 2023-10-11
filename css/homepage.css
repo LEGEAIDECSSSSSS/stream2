@@ -297,6 +297,22 @@ body a {
   filter: blur(20px);
 }
 
+.join{
+  border: 1px solid darkred;
+  background-color: darkred;
+  padding: 5px;
+  box-sizing: border-box;
+  color: white;
+}
+
+.join:hover{
+  border: 1px solid red;
+  background-color: red;
+  padding: 5px;
+  box-sizing: border-box;
+  color: white;
+}
+
 .home-next{
   padding-top: 165px;
 }
