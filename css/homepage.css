@@ -293,6 +293,10 @@ body a {
   }
 }
 
+.fade{
+  filter: blur(20px);
+}
+
 .home-next{
   padding-top: 165px;
 }
