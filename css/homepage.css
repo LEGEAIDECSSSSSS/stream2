@@ -303,6 +303,7 @@ body a {
   padding: 5px;
   box-sizing: border-box;
   color: white;
+  text-align: center;
 }
 
 .join:hover{
@@ -313,6 +314,9 @@ body a {
   color: white;
 }
 
+.ad{
+  text-align: center;
+}
 .home-next{
   padding-top: 165px;
 }
