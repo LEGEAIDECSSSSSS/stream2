@@ -334,7 +334,6 @@ body a {
 }
 
 form {
-background-color: rghba(127, 129, 255, 0.13);
 padding: 30px 40px;
 width:50%;
 box-sizing: border-box;
@@ -370,16 +369,17 @@ input[type=email],input[type=text],input[type=password],select {
     display:block;
     box-sizing: border-box;
     padding:0 10px;
-    height: 40px;
+    height: 30px;
     margin-bottom: 15px;
-    border: 1x solid;
+    border: 0x solid;
+    border-radius: 20px;
 }
 
 input[type=email]:focus,
 input[type=text]:focus,
 input[type=password]:focus {
-border: 1px solid  rgba(127, 129, 255, 0.13);
-box-shadow: inset 2px 2px 2px  rgba(127, 129, 255, 0.13);
+border: 0px solid;
+
 }
 
 input[type=submit] {
