@@ -714,7 +714,7 @@ h6 a:hover {
 }
 
 .sign-up{
-  top: -90px;
+  top: -50px;
 }
 
 @media screen and (max-width:700px){
@@ -723,3 +723,6 @@ h6 a:hover {
   }
 }
 
+.site-nav-del{
+  background-color: rgba(0, 0, 0, 0);
+}
