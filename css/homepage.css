@@ -159,7 +159,7 @@ body a {
       border-radius: 10px;
       position: absolute;
       left: 80px;
-      top: 86px;
+      top: 75px;
       margin-left: -58px;
     }
   }
@@ -205,11 +205,65 @@ body a {
   @media screen and (max-width:700px){
     .out a {
       margin-left: 5px;
-      border: 1px solid white;
-      border-radius: 15px 0px;
+      border: 1px solid red;
+      border-radius: 0px;
       padding: 5px;
-      background-color: white;
+      background-color: red;
+      color: white;
     }
+  }
+
+  @media screen and (max-width:700px){
+    .out a:hover{
+      color: white;
+      border: 1px solid red;
+      background-color: red;
+      padding: 5px;
+      transform: scale(5.5);
+      transition-duration: 1s;
+    }
+  }
+
+  @media screen and (max-width:700px){
+    .plain a {
+      margin-left: 5px;
+      border: 1px solid white;
+      border-radius: 0px;
+      padding: 5px;
+      background-color: #333;
+      color: white;
+    }
+  }
+
+  @media screen and (max-width:700px){
+    .plain a:hover {
+      margin-left: 5px;
+      border: 1px solid white;
+      border-radius: 0px;
+      padding: 5px;
+      background-color: #333;
+      color: white;
+    }
+  }
+
+  @media screen and (max-width:700px){
+    .search-container{
+      display: flex;
+      position: absolute;
+      top: 76px;
+    }
+  }
+
+  @media screen and (max-width:700px){
+    /* Style the magnifying glass icon */
+.search-container button {
+  font-size: 18px; /* Adjust the size as needed */
+  color: #333; /* Change the color as needed */
+  background: transparent; /* Remove any background color */
+  border: none; /* Remove the border */
+  cursor: pointer;
+}
+
   }
 
   .out a:hover{
