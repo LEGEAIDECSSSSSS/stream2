@@ -249,7 +249,7 @@ body a {
   @media screen and (max-width:700px){
     .search-container{
       display: flex;
-      width: 130px;
+      width: 140px;
       position: absolute;
       top: 76px;
     }
