@@ -279,6 +279,7 @@ body a {
   /* Add space between "Register" and "Log Out" */
   .out a:first-child {
     margin-right: 10px;
+    margin-left: 10px;
   }
   
   /* Push the "Log Out" link to the right corner */
