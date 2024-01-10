@@ -834,14 +834,14 @@ h6 a{
 
 @media screen and (max-width: 700px) {
   .details{
-    width: 340px;
+    width: 335px;
     height: 215px;
   }
 }
 
 .story{
   font-size: large;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 @media screen and (max-width: 700px) {
