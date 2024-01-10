@@ -812,7 +812,6 @@ h6 a{
 
 .gen{
   padding: 20px;
-  width: 30%;
   box-sizing: border-box;
 }
 
@@ -894,7 +893,5 @@ h6 a{
 @media screen and (max-width: 700px) {
   .play-test {
     margin-top: 10px;
-    margin-left: auto;
-    box-sizing: border-box;
   }
 }
