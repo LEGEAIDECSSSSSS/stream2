@@ -804,6 +804,12 @@ h6 a{
   justify-content: space-between;
 }
 
+@media screen and (max-width: 700px) {
+  .ui {
+    display: block;
+  }
+}
+
 .gen{
   padding: 20px;
   width: 30%;
