@@ -798,3 +798,97 @@ h6 a{
 .searchbar{
   width: 500px;
 }
+
+.ui{
+  display: flex;
+  justify-content: space-between;
+}
+
+.gen{
+  padding: 20px;
+  width: 30%;
+  box-sizing: border-box;
+}
+
+.first{
+  flex: 2;
+  order: 2;
+  margin-right: 0px;
+} 
+
+.second{
+  flex: 1;
+  order: 1;
+}
+
+.details{
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 700px) {
+  .details{
+    width: 270px;
+    height: 214px;
+  }
+}
+
+.story{
+  font-size: large;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+@media screen and (max-width: 700px) {
+  .story {
+    font-size: small;
+  }
+}
+
+.play{
+  padding: 5px 20px;
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 1px red;
+  font-size: large;
+}
+
+.play-button {
+  width: 50px;
+  height: 50px;
+  background-color: #3498db; /* You can change the background color as desired */
+  border: 1px #3498db;;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.play-icon {
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 25px solid #ffffff; /* You can change the color of the triangle */
+}
+
+.play-test{
+  display:flex;
+  background-color: red;
+  border: 1px red;
+  border-radius: 10px;
+  width: 150px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 700px) {
+  .play-test {
+    margin-top: 10px;
+    margin-left: auto;
+    box-sizing: border-box;
+  }
+}
