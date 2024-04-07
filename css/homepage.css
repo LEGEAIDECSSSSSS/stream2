@@ -834,8 +834,8 @@ h6 a{
 
 @media screen and (max-width: 700px) {
   .details{
-    width: 335px;
-    height: 215px;
+    width: 100%;
+    height: 350px;
   }
 }
 
@@ -851,41 +851,50 @@ h6 a{
 }
 
 .play{
-  padding: 5px 20px;
-  background-color: red;
-  color: white;
+  padding: 0px 10px;
+  background-color: white;
+  color: black;
   border-radius: 10px;
   cursor: pointer;
-  border: 1px red;
+  border: 1px white;
   font-size: large;
+  font-weight: bold;
+  margin-left: 39%;
 }
 
-.play-button {
+.play-test:hover,
+.play:hover {
+  background-color: gray;
+}
+
+/*.play-button {
   width: 50px;
   height: 50px;
-  background-color: #3498db; /* You can change the background color as desired */
+  background-color: #3498db; /* You can change the background color as desired 
   border: 1px #3498db;;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
-}
+}*/
 
 .play-icon {
   width: 0;
   height: 0;
+  margin-top: 7px;
+  margin-left: 450%;
   border-top: 15px solid transparent;
   border-bottom: 15px solid transparent;
-  border-left: 25px solid #ffffff; /* You can change the color of the triangle */
+  border-left: 25px solid black /* You can change the color of the triangle */
 }
 
 .play-test{
   display:flex;
-  background-color: red;
-  border: 1px red;
+  background-color: white;
+  border: 1px white;
   border-radius: 10px;
-  width: 150px;
+  width: 100%;
   padding: 5px;
   box-sizing: border-box;
 }
