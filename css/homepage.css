@@ -889,6 +889,18 @@ h6 a{
   border-left: 25px solid black /* You can change the color of the triangle */
 }
 
+@media screen and (max-width: 700px ) {
+ .play-icon {
+   width: 0;
+   height: 0;
+   margin-top: 7px;
+   margin-left: 250%;
+   border-top: 15px solid transparent;
+   border-bottom: 15px solid transparent;
+ 
+  }
+}
+
 .play-test{
   display:flex;
   background-color: white;
