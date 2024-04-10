@@ -797,6 +797,7 @@ h6 a{
 
 .searchbar{
   width: 500px;
+  opacity: 0;
 }
 
 .ui{
@@ -924,4 +925,9 @@ h6 a{
 .runtime{
   margin-top: 30px;
   margin-left: 30px;
+}
+
+.director {
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
