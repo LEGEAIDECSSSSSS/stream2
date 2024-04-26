@@ -22,11 +22,20 @@ html a {
     }
 }
 
+h1{
+  padding-left: 10px;
+  padding-bottom: 20px;
+}
+
 header{
     background-color: rgba(51, 51, 51, 0.9);
     height: auto;
     border-radius: 20px/45px;
     width: auto;
+}
+
+.header-container{
+  display: flex;
 }
 
 footer{
@@ -229,7 +238,7 @@ body a {
       border: 1px solid red;
       background-color: red;
       padding: 5px;
-      transform: scale(5.5);
+      transform: scale(1.1);
       transition-duration: 1s;
     }
   }
@@ -468,6 +477,37 @@ input[type=password]:focus {
 border: 0px solid;
 
 }
+
+input[type=txt] {
+  width: 100%;
+  display:block;
+  box-sizing: border-box;
+  padding:0 10px;
+  height: 30px;
+  margin-top: 0px;
+  border: 0x solid;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.search {
+  position: relative;
+  top: -23px;
+  padding: 0px 15px 0px 15px;
+  
+  
+}
+
+input[type=txt]:focus{
+border: 0px solid;
+
+}
+
+input[type=txt]:hover {
+  background-color: #333;
+  border-color: rgba(127, 129, 255, 0.13);
+}
+
 
 input[type=submit] {
     width: 100%;
