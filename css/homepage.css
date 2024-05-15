@@ -584,6 +584,12 @@ input[type=password]:hover {
 .cjheader{
     animation: headeranimation 2s;
     animation-iteration-count: infinite;
+    width: 60px;
+    height: 50px;
+    border-radius: 10px;
+    position: relative;
+    top: -10px;
+
 }
 
 @keyframes drop{
