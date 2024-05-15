@@ -319,7 +319,7 @@ body a {
 
 @media screen and (max-width:700px){
   .name{
-    font-size: 100%;
+    font-size: 75%;
     padding-top: 15px;
     box-sizing: border-box;
   }
@@ -585,8 +585,8 @@ input[type=password]:hover {
 .cjheader{
     animation: headeranimation 2s;
     animation-iteration-count: infinite;
-    width: 60px;
-    height: 50px;
+    width: 50px;
+    height: 40px;
     border-radius: 10px;
     position: relative;
     top: -10px;
