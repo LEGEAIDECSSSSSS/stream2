@@ -319,7 +319,7 @@ body a {
 
 @media screen and (max-width:700px){
   .name{
-    font-size: 75%;
+    font-size: 80%;
     padding-top: 15px;
     box-sizing: border-box;
   }
@@ -589,7 +589,7 @@ input[type=password]:hover {
     height: 40px;
     border-radius: 10px;
     position: relative;
-    top: -10px;
+    top: -5px;
 
 }
 
