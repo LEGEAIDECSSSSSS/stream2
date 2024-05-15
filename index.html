@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="css/homepage.css">
         <script type="text/javascript" src="javascript/jquery.js"></script>
         <script type="text/javascript" src="javascript/cycle2.js"></script>
+        <script type="text/javascript" src="javascript/slideshow.js"></script>
   </head> 
     <body>
     <header>
@@ -33,30 +34,6 @@
       </div>
     </header>
      <body>
-      <script>
-        document.addEventListener("DOMContentLoaded", function() {
-    let slideIndex = 0;
-    showSlides();
-
-    function showSlides() {
-        let slides = document.querySelectorAll(".slide");
-
-        //Hide all slides
-        for (let i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
-        }
-        
-        //increment slide index and show the next slide
-        slideIndex++;
-        if (slideIndex > slides.length) {
-            slideIndex = 1;
-        }
-        slides[slideIndex -1].style.display = "block";
-        //change slide every 10 secs
-        setTimeout(showSlides,2000);
-    }
-});
-</script>
       <div class="fun-img">
        <h3>NEW RELEASES</h3>
       <div class="now-streaming">
