@@ -38,6 +38,7 @@ header{
   display: flex;
 }
 
+body {}
 footer{
     margin-top: 20px;
     width: 100%;
@@ -886,15 +887,17 @@ h6 a{
 }
 
 .details{
-  width: auto;
-  height: auto;
-  border-radius: 10px;
+  width: 200px;
+  height: 100px;
+  position: relative;
+  top: 20px;
+ 
 }
 
 @media screen and (max-width: 700px) {
   .details{
-    width: 100%;
-    height: 350px;
+    width: 150px;
+    height: 200px;
   }
 }
 
@@ -1001,4 +1004,33 @@ h6 a{
   100% {
       transform: translateX(-100%);
   }
+}
+
+.oppenheimer {
+  background-image: url("../images/oppenheimer.jpg");
+  background-size: cover;
+}
+
+.oppenheimer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity */
+  z-index: 1; /* Position overlay above the background image */
+  pointer-events: none; /* Ensure the overlay doesn't block interactions */
+}
+
+.ui-flex {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  
+}
+
+.flex-2 {
+  position: relative;
+  top: 100px;
 }
