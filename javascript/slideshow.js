@@ -20,3 +20,30 @@ document.addEventListener("DOMContentLoaded", function() {
         setTimeout(showSlides,2000);
     }
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+    const fade = document.querySelector(".fade");
+    const scroll = document.querySelector(".scroll");
+
+    // Duplicate the content to create a seamless scroll
+    const contentWidth = scroll.scrollWidth;
+    scroll.innerHTML += scroll.innerHTML;
+
+    // Function to start the auto-scrolling
+    function startScrolling() {
+        let scrollAmount = 0;
+
+        function step() {
+            scrollAmount += 1;
+            if (scrollAmount >= contentWidth) {
+                scrollAmount = 0; // Reset scroll amount for seamless loop
+            }
+            fade.scrollLeft = scrollAmount;
+            requestAnimationFrame(step);
+        }
+
+        requestAnimationFrame(step);
+    }
+
+    startScrolling();
+});
