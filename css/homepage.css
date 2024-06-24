@@ -9,6 +9,7 @@ html {
 
 html a {
     text-decoration: none;
+    color: white;
 }
 
 @media screen and (max-width:1000px) {
@@ -45,10 +46,6 @@ footer{
     border-top:2px solid gray   ;
     text-align: center;
     position: absolute;
-}
-
-body a {
-    color:rgba(201, 22, 22, 0.781) ;    
 }
 
 /* Style for the navigation bar */
@@ -1024,4 +1021,8 @@ h6 a{
 
 .ui {
   background-color: rgba(0, 0, 0, .8);
+}
+
+.back-link img{
+  height: 30px;
 }
