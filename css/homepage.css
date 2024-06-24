@@ -859,13 +859,11 @@ h6 a{
 .ui{
   display: flex;
   justify-content: space-between;
+  background-color: rgba(0, 0, 0, .8);
 }
 
 @media screen and (max-width: 700px) {
-  .ui {
-    display: block;
-  }
-}
+ 
 
 .gen{
   padding: 20px;
@@ -1006,11 +1004,11 @@ h6 a{
 .oppenheimer {
   background-image: url("../images/oppenheimer.jpg");
   background-size: cover;
+  padding: 0%;
 }
 
 .ui-flex {
   position: relative;
-
   display: flex;
 }
 
@@ -1020,7 +1018,7 @@ h6 a{
 }
 
 .ui {
-  background-color: rgba(0, 0, 0, .8);
+ 
 }
 
 .back-link img{
