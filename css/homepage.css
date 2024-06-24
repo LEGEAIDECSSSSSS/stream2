@@ -916,9 +916,9 @@ h6 a{
   padding: 0px 10px;
   background-color: white;
   color: black;
-  border-radius: 10px;
+ 
   cursor: pointer;
-  border: 1px white;
+  border: 0px;
   font-size: large;
   font-weight: bold;
   margin-left: 39%;
@@ -1011,26 +1011,17 @@ h6 a{
   background-size: cover;
 }
 
-.oppenheimer::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity */
-  z-index: 1; /* Position overlay above the background image */
-  pointer-events: none; /* Ensure the overlay doesn't block interactions */
-}
-
 .ui-flex {
   position: relative;
-  z-index: 2;
+
   display: flex;
-  
 }
 
 .flex-2 {
   position: relative;
   top: 100px;
+}
+
+.ui {
+  background-color: rgba(0, 0, 0, .8);
 }
