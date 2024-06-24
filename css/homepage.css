@@ -862,9 +862,6 @@ h6 a{
   background-color: rgba(0, 0, 0, .8);
 }
 
-@media screen and (max-width: 700px) {
- 
-
 .gen{
   padding: 20px;
   box-sizing: border-box;
@@ -1017,10 +1014,6 @@ h6 a{
   top: 100px;
 }
 
-.ui {
- 
-}
-
-.back-link img{
+.back-link img {
   height: 30px;
 }
