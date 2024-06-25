@@ -221,7 +221,6 @@ footer{
 
   @media screen and (max-width:700px){
     .out a {
-      pointer-events: none;
       opacity: 0;
       margin-left: 5px;
       border: 1px solid red;
