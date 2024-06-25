@@ -880,7 +880,7 @@ h6 a{
 
 .details{
   width: 200px;
-  height: 100px;
+  height: 300px;
   position: relative;
   top: 20px;
  
@@ -904,76 +904,6 @@ h6 a{
   }
 }
 
-.play{
-  padding: 0px 10px;
-  background-color: white;
-  color: black;
- 
-  cursor: pointer;
-  border: 0px;
-  font-size: large;
-  font-weight: bold;
-  margin-left: 39%;
-}
-
-.play-test:hover,
-.play:hover {
-  background-color: gray;
-}
-
-/*.play-button {
-  width: 50px;
-  height: 50px;
-  background-color: #3498db; /* You can change the background color as desired 
-  border: 1px #3498db;;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-}*/
-
-.play-icon {
-  width: 0;
-  height: 0;
-  margin-top: 7px;
-  margin-left: 450%;
-  border-top: 15px solid transparent;
-  border-bottom: 15px solid transparent;
-  border-left: 25px solid black /* You can change the color of the triangle */
-}
-
-@media screen and (max-width: 700px ) {
- .play-icon {
-   width: 0;
-   height: 0;
-   margin-top: 7px;
-   margin-left: 300%;
-   border-top: 15px solid transparent;
-   border-bottom: 15px solid transparent;
- 
-  }
-}
-
-.play-test{
-  display:flex;
-  background-color: white;
-  border: 1px white;
-  border-radius: 10px;
-  width: 100%;
-  padding: 5px;
-  box-sizing: border-box;
-}
-
-@media screen and (max-width: 700px) {
-  .play-test {
-    margin-top: 10px;
-  }
-}
-
-.max-width{
-  display: flex;
-}
 
 .runtime{
   margin-top: 30px;
@@ -1012,8 +942,42 @@ h6 a{
 .flex-2 {
   position: relative;
   top: 100px;
+  left: 20px;
 }
 
 .back-link img {
   height: 30px;
+}
+
+button {
+  
+}
+
+.play-button {
+  font-weight: bold;
+  font-size: 24px;
+  width: 300px;
+  height: auto;
+  padding: 15px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.play-button:hover {
+  background-color: #333;
+}
+
+.play-button:focus {
+  outline: none;
+}
+
+.play-duration {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 20px;
 }
