@@ -956,7 +956,7 @@ h6 a{
   padding: 15px;
   box-sizing: border-box;
   border: none;
-  border-radius: 0px;
+  border-radius: 10px;
   background-color: white;
   color: black;
   cursor: pointer;
@@ -990,7 +990,7 @@ h6 a{
   margin-top: 10px;
   box-sizing: border-box;
   border: none;
-  border-radius: 0px;
+  border-radius: 10px;
   background-color: #333;
   color: white;
   cursor: pointer;
