@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function() {
         }
         slides[slideIndex -1].style.display = "block";
         //change slide every 10 secs
-        setTimeout(showSlides,2000);
+        setTimeout(showSlides,10000);
     }
 });
 
